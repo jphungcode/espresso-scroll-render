@@ -33,7 +33,8 @@ window.addEventListener("DOMContentLoaded", (event) => {
     loop: false,
     autoplay: false,
     rendererSettings: { progressiveLoad: false },
-    path: "data.json",
+    path:
+      "https://cdn.jsdelivr.net/gh/jphungcode/espresso-scroll-render@master/data.json",
   };
 
   anim = lottie.loadAnimation(animateData);
